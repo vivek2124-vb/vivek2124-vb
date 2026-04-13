@@ -48,15 +48,11 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vivek2124-vb&show_icons=true&theme=tokyonight" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivek2124-vb&theme=tokyonight" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=vivek2124-vb&show_icons=true&theme=tokyonight&cache_seconds=1800" />
 </p>
-
----
 
 ## 📈 Top Languages
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight" />
 </p>
-
