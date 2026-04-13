@@ -1,24 +1,95 @@
-# Simple GitHub Animation for Your Profile
+<!-- ============================= -->
+<!--   VIVEK PREMIUM GITHUB README -->
+<!-- ============================= -->
 
-The easiest and cleanest animation is a **Typing Text Banner**.
-
-It looks professional, lightweight, and works perfectly on GitHub.
-
----
-
-## ✅ Simple Animated Typing Banner
-
-Paste this at the top of your README.md:
+<h1 align="center">Hi 👋, I'm Vivek Bisht</h1>
+<h3 align="center">🚀 MERN Stack Developer | Full Stack Web Developer | Creative Problem Solver</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hi+I'm+Vivek+Bisht;MERN+Stack+Developer;Full+Stack+Web+Developer;Learning+AI+Integration" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=Welcome+to+My+GitHub+Profile!;MERN+Stack+Developer;Building+Modern+Web+Applications;Always+Learning+New+Technologies" />
 </p>
 
 ---
 
-## ✅ How to Add It
+## 🌌 About Me
 
-### Step 1:
-Open your GitHub profile repository:
-```bash
-vivek2124-vb
+💻 Passionate Full Stack Developer  
+🌱 Currently learning Advanced MERN Stack + AI Integration  
+🚀 Building Scalable Web Apps & Interactive Projects  
+🎯 Goal: Become a World-Class Software Engineer  
+⚡ Fun Fact: I love creating animated websites & visualizers  
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Next JS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
+
+### Backend:
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express.js](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+
+### Database:
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+
+### Tools:
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=vivek2124-vb&show_icons=true&theme=tokyonight" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivek2124-vb&theme=tokyonight" height="180"/>
+</p>
+
+---
+
+## 📈 Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 🐍 Contribution Snake Animation
+
+### Step to Enable:
+1. Create folder: `.github/workflows/`
+2. Create file: `snake.yml`
+
+Paste this code:
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: vivek2124-vb
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
