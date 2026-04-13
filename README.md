@@ -60,36 +60,3 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight" />
 </p>
 
----
-
-## 🐍 Contribution Snake Animation
-
-### Step to Enable:
-1. Create folder: `.github/workflows/`
-2. Create file: `snake.yml`
-
-Paste this code:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: vivek2124-vb
-          outputs: dist/github-contribution-grid-snake.svg
-
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
