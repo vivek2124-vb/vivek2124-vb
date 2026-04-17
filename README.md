@@ -57,8 +57,3 @@
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight" />
 </p>
 
-## 📅 Contribution Calendar
-
-<p align="center">
-  <img src="./metrics.plugin.calendar.svg" alt="GitHub Contribution Calendar" />
-</p>
