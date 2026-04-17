@@ -64,5 +64,5 @@
 
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivek2124-vb&theme=tokyo-night&hide_border=true" />
+  <img src="./github-metrics.svg" alt="Contribution Calendar" />
 </p>
