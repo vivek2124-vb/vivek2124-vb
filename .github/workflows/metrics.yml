@@ -18,13 +18,12 @@ jobs:
       - name: Generate calendar metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           user: vivek2124-vb
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           filename: metrics.plugin.calendar.svg
           plugin_calendar: yes
           plugin_calendar_limit: 1
-          output_action: none
 
       - name: Commit generated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
