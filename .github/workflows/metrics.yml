@@ -15,18 +15,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate metrics
+      - name: Generate calendar metrics
         uses: lowlighter/metrics@latest
         with:
-          user: vivek2124-vb
           token: ${{ secrets.GITHUB_TOKEN }}
-          filename: metrics.plugin.calendar.svg
+          user: vivek2124-vb
           base: ""
+          filename: metrics.plugin.calendar.svg
           plugin_calendar: yes
           plugin_calendar_limit: 1
           output_action: none
 
-      - name: Commit generated files
+      - name: Commit generated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update github metrics"
