@@ -1,0 +1,32 @@
+name: GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          user: vivek2124-vb
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.plugin.calendar.svg
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          output_action: none
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update github metrics"
