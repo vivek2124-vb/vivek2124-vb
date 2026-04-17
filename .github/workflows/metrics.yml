@@ -1,8 +1,6 @@
 name: GitHub Metrics
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -24,6 +22,9 @@ jobs:
           filename: metrics.plugin.calendar.svg
           plugin_calendar: yes
           plugin_calendar_limit: 1
+
+      - name: Show generated files
+        run: ls -la
 
       - name: Commit generated SVG
         uses: stefanzweifel/git-auto-commit-action@v5
