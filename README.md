@@ -59,10 +59,5 @@
 
 
 <p align="center">
-  <img src="https://github.com/vivek2124-vb/vivek2124-vb/blob/output/github-contribution-snake.yml" alt="snake animation" />
-</p>
-
-
-<p align="center">
-  <img src="./github-snake.yml" alt="GitHub Contribution Calendar" />
+  <img src="./metrics.plugin.calendar.full.svg" alt="GitHub Contribution Calendar" />
 </p>
