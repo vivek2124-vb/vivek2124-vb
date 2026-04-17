@@ -56,3 +56,13 @@
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight" />
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/vivek2124-vb/vivek2124-vb/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vivek2124-vb&theme=tokyo-night&hide_border=true" />
+</p>
