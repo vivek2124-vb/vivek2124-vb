@@ -59,5 +59,5 @@
 
 
 <p align="center">
-  <img src="./metrics.plugin.calendar.full.svg" alt="GitHub Contribution Calendar" />
+  <img src="./metrics.plugin.calendar.svg" alt="GitHub Contribution Calendar" />
 </p>
