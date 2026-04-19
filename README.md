@@ -44,6 +44,12 @@
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code)
 
 ---
+<h3 align="center">👀 Profile Visitors</h3>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=vivek2124-vb&label=Visitors&color=blue&style=for-the-badge" alt="profile views"/>
+</p>
+
 
 ## 📊 GitHub Stats
 
