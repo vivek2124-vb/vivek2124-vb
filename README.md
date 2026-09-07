@@ -85,8 +85,8 @@ I'm a Full Stack Developer focused on the MERN stack, with an interest in writin
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=vivek2124-vb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Vivek's GitHub stats" />
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=vivek2124-vb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Vivek's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=vivek2124-vb&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
