@@ -1,211 +1,102 @@
-CPUMiner-Multi
-==============
+<div align="center">
 
-[![Build Status](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
+# Vivek Bisht
 
-This is a multi-threaded CPU miner,
-fork of [pooler](//github.com/pooler)'s cpuminer (see AUTHORS for list of contributors).
+### MERN Stack Developer building fast, scalable web applications
 
-#### Table of contents
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00B8D9&center=true&vCenter=true&width=600&lines=Full+Stack+Web+Developer;React+%7C+Node.js+%7C+Express+%7C+MongoDB;Building+production-ready+web+apps;Currently+exploring+AI+integration" alt="Typing SVG" />
 
-* [Algorithms](#algorithms)
-* [Dependencies](#dependencies)
-* [Download](#download)
-* [Build](#build)
-* [Usage instructions](#usage-instructions)
-* [Donations](#donations)
-* [Credits](#credits)
-* [License](#license)
+<br/>
 
-Algorithms
-==========
-#### Currently supported
- * ✓ __scrypt__ (Litecoin, Dogecoin, Feathercoin, ...)
- * ✓ __scrypt:N__
- * ✓ __scrypt-jane:N__
- * ✓ __sha256d__ (Bitcoin, Freicoin, Peercoin/PPCoin, Terracoin, ...)
- * ✓ __allium__ (Garlicoin, Tuxcoin)
- * ✓ __axiom__ (Axiom Shabal-256 based MemoHash)
- * ✓ __bastion__ (Joincoin [J])
- * ✓ __bitcore__ Permuted serie of 10 algos (BitCore)
- * ✓ __blake__ (Saffron [SFR] Blake-256)
- * ✓ __blake2s__ (NevaCoin Blake2-S 256)
- * ✓ __blake2b__ (Not SIA one)
- * ✓ __bmw__ (Midnight [MDT] BMW-256)
- * ✓ __cryptonight__ (Bytecoin [BCN], Monero [XMR])
- * ✓ __cryptonight-light__ (Aeon)
- * ✓ __decred__ (Blake256-14 [DCR])
- * ✓ __dmd-gr__ (Diamond-Groestl)
- * ✓ __fresh__ (FreshCoin)
- * ✓ __geek__ (GeekCash [GEEK])
- * ✓ __groestl__ (Groestlcoin)
- * ✓ __jha__ (JackpotCoin, SweepStake)
- * ✓ __lbry__ (LBRY Credits [LBC])
- * ✓ __lyra2RE__ (Cryptocoin)
- * ✓ __lyra2REv2__
- * ✓ __lyra2REv3__ (VertCoin [VTC])
- * ✓ __myr-gr__ Myriad-Groestl (MyriadCoin [MYR])
- * ✓ __neoscrypt__ (Feathercoin)
- * ✓ __nist5__ (MistCoin [MIC], TalkCoin [TAC], ...)
- * ✓ __pentablake__ (Joincoin)
- * ✓ __pluck__ (Supcoin [SUP])
- * ✓ __quark__ (Quarkcoin)
- * ✓ __qubit__ (GeoCoin)
- * ✓ __skein__ (Skeincoin, Myriadcoin, Xedoscoin, ...)
- * ✓ __skein2__ (Woodcoin)
- * ✓ __s3__ (OneCoin)
- * ✓ __sia__ (Reversed Blake2B for SIA [SC])
- * ✓ __sib__ X11 + gost streebog (SibCoin)
- * ✓ __timetravel__ Permuted serie of 8 algos (MachineCoin [MAC])
- * ✓ __tribus__ 3 of the top NIST5 algos (Denarius [DNR])
- * ✓ __vanilla__ (Blake-256 8-rounds - double sha256 [VNL])
- * ✓ __veltor__ (Veltor [VLT])
- * ✓ __xevan__ x17 x 2 on bigger header (BitSend [BSD])
- * ✓ __x11evo__ (Revolver [XRE])
- * ✓ __x11__ (Darkcoin [DRK], Hirocoin, Limecoin, ...)
- * ✓ __x12__ (GalaxyCash [GCH])
- * ✓ __x13__ (Sherlockcoin, [ACE], [B2B], [GRC], [XHC], ...)
- * ✓ __x14__ (X14, Webcoin [WEB])
- * ✓ __x15__ (RadianceCoin [RCE])
- * ✓ __x16r__
- * ✓ __x16rv2__ (Ravencoin [RVN], Trivechain [TRVC])
- * ✓ __x16s__ (Pigeoncoin [PGN])
- * ✓ __x17__ (Verge [XVG])
- * ✓ __x20r__
- * ✓ __yescrypt__ (GlobalBoostY [BSTY], Unitus [UIS], MyriadCoin [MYR])
- * ✓ __zr5__ (Ziftrcoin [ZRC])
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
 
-#### Implemented, but untested
- * ? hefty1 (Heavycoin)
- * ? keccak (Maxcoin  HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
- * ? keccakc (Creativecoin)
- * ? luffa (Joincoin, Doomcoin)
- * ? rainforest
- * ? shavite3 (INKcoin)
- * ? __yescryptr8__ __yescryptr16__ and __yescryptr32__ variants
+</div>
 
-#### Planned support for
- * *scrypt-jane* (YaCoin, CopperBars, Pennies, Tickets, etc..)
- 
-Dependencies
-============
- * libcurl http://curl.haxx.se/libcurl/
- * jansson http://www.digip.org/jansson/ (jansson source is included in-tree)
- * openssl libcrypto https://www.openssl.org/
- * pthreads
- * zlib (for curl/ssl)
+---
 
-Download
-========
- * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
- * Git tree:   https://github.com/tpruvot/cpuminer-multi
-   * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
+## About Me
 
-Build
-=====
+I'm a Full Stack Developer focused on the MERN stack, with an interest in writing clean, maintainable code and shipping products end to end — from database schema to deployed UI.
 
-#### Basic *nix build instructions:
- * just use `./build.sh`
-_OR_
+- 🔭 Currently building projects with **React, Node.js, Express and MongoDB**
+- 🌱 Learning advanced backend architecture and **AI-integrated web applications**
+- 🎯 Goal: write software that's simple to use and easy for other developers to maintain
+- 💬 Ask me about React, REST API design, or MongoDB data modeling
+- ⚡ Fun fact: I enjoy building animated, interactive UIs
 
-```
- ./autogen.sh	# only needed if building from git repo
- ./nomacro.pl	# only needed if building on Mac OS X or with Clang
- ./configure CFLAGS="*-march=native*" --with-crypto --with-curl
- # Use -march=native if building for a single machine
- make
-```
+---
 
-#### Note for Debian/Ubuntu users:
+## Tech Stack
 
-```
- apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
-```
+<table>
+<tr>
+<td valign="top" width="50%">
 
-#### Note for OS X users:
+**Frontend**
 
-```
- brew install openssl curl
- ./build.sh # if curl was installed to /usr/local/opt, else update build.sh paths in darwin section
-```
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-#### Note for pi64 users:
+**Backend**
 
-```
- ./autogen.sh
- ./configure --disable-assembly CFLAGS="-Ofast -march=native" --with-crypto --with-curl
-```
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js)
+![Express.js](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express)
 
-#### Notes for AIX users:
- * To build a 64-bit binary, export OBJECT_MODE=64
- * GNU-style long options are not supported, but are accessible via configuration file
+</td>
+<td valign="top" width="50%">
 
-#### Basic Windows build with Visual Studio 2013
- * All the required .lib files are now included in tree (windows only)
- * AVX enabled by default for x64 platform (AVX2 and XOP could also be used)
+**Databases**
 
-#### Basic Windows build instructions, using MinGW64:
- * Install MinGW64 and the MSYS Developer Tool Kit (http://www.mingw.org/)
-   * Make sure you have mstcpip.h in MinGW\include
- * install pthreads-w64
- * Install libcurl devel (http://curl.haxx.se/download.html)
-   * Make sure you have libcurl.m4 in MinGW\share\aclocal
-   * Make sure you have curl-config in MinGW\bin
- * Install openssl devel (https://www.openssl.org/related/binaries.html)
- * In the MSYS shell, run:
-   * for 64bit, you can use `./mingw64.sh` else :
-     `./autogen.sh	# only needed if building from git repo`
-   ```
-   LIBCURL="-lcurldll" ./configure CFLAGS="*-march=native*"
-   # Use -march=native if building for a single machine
-   make
-    ```
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql)
 
-#### Architecture-specific notes:
- * ARM:
-   * No runtime CPU detection. The miner can take advantage of some instructions specific to ARMv5E and later processors, but the decision whether to use them is made at compile time, based on compiler-defined macros.
-   * To use NEON instructions, add `-mfpu=neon` to CFLAGS.
- * x86:
-   * The miner checks for SSE2 instructions support at runtime, and uses them if they are available.
- * x86-64:	
-   * The miner can take advantage of AVX, AVX2 and XOP instructions, but only if both the CPU and the operating system support them.
-     * Linux supports AVX starting from kernel version 2.6.30.
-     * FreeBSD supports AVX starting with 9.1-RELEASE.
-     * Mac OS X added AVX support in the 10.6.8 update.
-     * Windows supports AVX starting from Windows 7 SP1 and Windows Server 2008 R2 SP1.
-   * The configure script outputs a warning if the assembler doesn't support some instruction sets. In that case, the miner can still be built, but unavailable optimizations are left off.
+**Tools & Platforms**
 
-Usage instructions
-==================
-Run `cpuminer --help` to see options.
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
-### Connecting through a proxy
+</td>
+</tr>
+</table>
 
-Use the `--proxy` option.
+---
 
-To use a SOCKS proxy, add a socks4:// or socks5:// prefix to the proxy host  
-Protocols socks4a and socks5h, allowing remote name resolving, are also available since libcurl 7.18.0.
+## Featured Projects
 
-If no protocol is specified, the proxy is assumed to be a HTTP proxy.  
-When the --proxy option is not used, the program honors the http_proxy and all_proxy environment variables.
+<!-- Replace these with 2-3 of your best repos -->
 
-Donations
-=========
-Donations for the work done in this fork are accepted :
+| Project | Description | Stack |
+|---|---|---|
+| **[Project Name](#)** | One-line description of what it does and the problem it solves | React · Node.js · MongoDB |
+| **[Project Name](#)** | One-line description of what it does and the problem it solves | Next.js · Express · MySQL |
+| **[Project Name](#)** | One-line description of what it does and the problem it solves | React · Tailwind · Firebase |
 
-Tanguy Pruvot :
-* BTC: `1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd`
+---
 
-Lucas Jones :
-* MRO: `472haywQKoxFzf7asaQ4XKBc2foAY4ezk8HiN63ifW4iAbJiLnfmJfhHSR9XmVKw2WYPnszJV9MEHj9Z5WMK9VCNHaGLDmJ`
-* BTC: `139QWoktddChHsZMWZFxmBva4FM96X2dhE`
+## GitHub Stats
 
-Credits
-=======
-CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas Jones.
-* [tpruvot](https://github.com/tpruvot) added all the recent features and newer algorythmns
-* [Wolf9466](https://github.com/wolf9466) helped with Intel AES-NI support for CryptoNight
+<div align="center">
 
-License
-=======
-GPLv2.  See COPYING for details.
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=vivek2124-vb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Vivek's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vivek2124-vb&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vivek2124-vb&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
+</div>
+
+---
+
+<div align="center">
+
+**Profile views**
+<img src="https://komarev.com/ghpvc/?username=vivek2124-vb&label=Visitors&color=00B8D9&style=flat-square" alt="profile views" />
+
+</div>
